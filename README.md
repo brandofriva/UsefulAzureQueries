@@ -15,3 +15,4 @@ changedProperties = properties.changes, changeCount = properties.changeAttribute
 | join kind=leftouter (resources | extend targetResourceId=id | project resourcename=name, resourcesku=sku, resourcekind=kind, targetResourceId=id, resourcesku2=properties.sku.name) on targetResourceId
 | project changeTime, subscriptionId, SubscriptionName, resourceGroup, changeType, targetResourceId, resourcename, resourcesku, resourcesku2, resourcekind
 ```
+Built from examples found here: https://learn.microsoft.com/en-us/azure/governance/resource-graph/samples/advanced?tabs=azure-cli
