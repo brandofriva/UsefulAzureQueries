@@ -1,0 +1,2 @@
+# UsefulAzureQueries
+Useful Azure Queries
