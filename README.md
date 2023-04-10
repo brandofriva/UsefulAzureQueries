@@ -1,5 +1,5 @@
-# UsefulAzureQueries
-Useful Azure Queries
+# Useful Azure Queries
+An ad-hoc of useful Azure Queries
 
 Newly created or deleted resources in Azure:
 (Resource Graph query)
